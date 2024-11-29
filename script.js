@@ -58,7 +58,7 @@ function viewDetails(bookId) {
 
     if (book) {
         alert(`
-                                            THIS BOOK DETAIL
+                                     THIS BOOK DETAIL
 
             Book Name: ${book.name}
 
