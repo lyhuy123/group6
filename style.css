@@ -205,3 +205,45 @@ td{
     color: rgb(0, 0, 0);
     align-items: center;
 }
+@media (max-width: 600px) {
+    nav {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #form p {
+        font-size: 18px;
+    }
+
+    #form p:last-of-type {
+        font-size: 14px;
+    }
+
+    .user input, .password input {
+        width: 100%;
+    }
+
+    .user img, .password1 {
+        display: none;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .btn button {
+        font-size: 14px;
+    }
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+    nav {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .user input, .password input {
+        width: 90%;
+    }
+}
